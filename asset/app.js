@@ -24,11 +24,11 @@ btn.addEventListener("click", function () {
   const ranNumb4 = Math.floor(Math.random() * hex4.length);
   const ranNumb5 = Math.floor(Math.random() * hex5.length);
   const ranNumb6 = Math.floor(Math.random() * hex6.length);
-  
+
   for (let i = 0; i < 1; i++) {
     hexaColor += hex[ranNumb];
   }
-   for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < 1; i++) {
     hexaColor2 += hex2[ranNumb2];
   }
   for (let i = 0; i < 1; i++) {
@@ -37,13 +37,14 @@ btn.addEventListener("click", function () {
   for (let i = 0; i < 1; i++) {
     hexaColor4 += hex[ranNumb4];
   }
-   for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < 1; i++) {
     hexaColor5 += hex2[ranNumb5];
   }
   for (let i = 0; i < 1; i++) {
     hexaColor6 += hex2[ranNumb6];
   }
-  const allHexNumb = hexaColor+hexaColor2+hexaColor3+hexaColor4+hexaColor5+hexaColor6;
+  const allHexNumb =
+    hexaColor + hexaColor2 + hexaColor3 + hexaColor4 + hexaColor5 + hexaColor6;
 
   document.body.style.backgroundColor = allHexNumb;
   color.textContent = allHexNumb;
