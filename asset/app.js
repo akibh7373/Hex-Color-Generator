@@ -6,12 +6,13 @@ const btn = document.querySelector(".btn");
 btn.addEventListener("click", function () {
   // To left color
   // Take colors into an array
-  const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-  const hex2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-  const hex3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-  const hex4 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-  const hex5 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-  const hex6 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+  const numbText = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+  const hex = numbText;
+  const hex2 = numbText;
+  const hex3 = numbText;
+  const hex4 = numbText;
+  const hex5 = numbText;
+  const hex6 = numbText;
   let hexaColor = "#";
   let hexaColor2 = "";
   let hexaColor3 = "";
