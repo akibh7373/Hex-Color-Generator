@@ -1,4 +1,4 @@
-# Hex Color Generator
+# ![Hex Color Generator](https://hex-color-flipper.web.app/)
 
 ![Hex Color Flipper](https://user-images.githubusercontent.com/44940208/177922281-1fcdcac2-f7e1-41af-a8f1-4746c0bedbb8.jpg)
 
